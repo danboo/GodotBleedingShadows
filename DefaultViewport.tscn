@@ -3,7 +3,7 @@
 [ext_resource path="res://Tile.tscn" type="PackedScene" id=1]
 [ext_resource path="res://light-mask.png" type="Texture" id=2]
 
-[node name="World" type="Node2D"]
+[node name="DefaultViewport" type="Node2D"]
 
 [node name="Tile" parent="." instance=ExtResource( 1 )]
 
@@ -25,7 +25,7 @@ texture = ExtResource( 2 )
 texture_scale = 0.5
 mode = 2
 shadow_enabled = true
-shadow_gradient_length = 8.0
+shadow_gradient_length = 12.0
 shadow_filter = 5
 shadow_filter_smooth = 2.0
 
